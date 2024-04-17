@@ -1,7 +1,8 @@
 {{ $data := index site.Data site.Language.Lang }}
 {{ if $data.banner.banner.enable }}
 {{ with $data.banner.banner }}
-<div class="p-5 text-center bg-image vh-50" style="background-image: url('{{ .bg_image | absURL }}');background-size: cover; ">
+<section>
+<div class="p-5 text-center bg-image " style="background-image: url('{{ .bg_image | absURL }}');background-size: cover; ">
 
   <div class="px-4 py-5 my-5 text-center start-50">
     <div class="row">
@@ -27,7 +28,7 @@
         </div>
         </div>
         </div>
-
+</section>
 
 
 {{end}}

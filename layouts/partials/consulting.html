@@ -1,7 +1,8 @@
 {{ $data := index site.Data site.Language.Lang }}
 {{ if $data.consulting.consulting.enable }}
 {{ with $data.consulting.consulting }}
-<div class="p-5 text-center bg-image vh-100" style="background-image: url('{{ .bg_image | absURL }}'); background-size: cover;">
+<section>
+<div class="p-5 text-center bg-image " style="background-image: url('{{ .bg_image | absURL }}'); background-size: cover;">
   <div class="container col-xxl-8 px-4 py-5" id="services">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
@@ -22,6 +23,6 @@
     </div>
   </div>
   </div>
-
+</section>
 {{end}}
 {{end}}
