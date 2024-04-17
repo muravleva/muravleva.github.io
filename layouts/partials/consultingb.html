@@ -1,0 +1,27 @@
+{{ $data := index site.Data site.Language.Lang }}
+{{ if $data.consultingb.consultingb.enable }}
+{{ with $data.consultingb.consultingb }}
+<div class="p-5 text-center bg-image vh-100" style="background-image: url('{{ .bg_image | absURL }}'); background-size: cover;">
+  <div class="container col-xxl-8 px-4 py-5" id="services">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <h1 class="display-5 fw-bold lh-1 mb-3 text-white">{{ .title | markdownify }}</h1>
+        <p class="lead text-white">{{ .content | markdownify }}</p>
+    
+        <div class="gap-2 justify-content-md-start">
+          {{ if .button.enable }}
+          {{ with .button }}
+          <button  type="button"  data-bs-toggle="modal" data-bs-target="#consultingModal" class=" btn btn-primary btn-lg px-4 gap-3 fs-6 text-nowrap">{{ .label }}</button>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-lg-6">
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+{{end}}
+{{end}}

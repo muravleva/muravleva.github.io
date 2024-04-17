@@ -1,0 +1,28 @@
+{{ $data := index site.Data site.Language.Lang }}
+{{ if $data.banner.banner.enable }}
+{{ with $data.banner.banner }}
+<div class="p-5 text-center bg-image vh-50" style="background-image: url('{{ .bg_image | absURL }}');background-size: cover; ">
+
+  <div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold text-white">{{ .title | markdownify }}</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4 text-white">{{ .content | markdownify }}</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        {{ if .button.enable }}
+        {{ with .button }}
+        <div class="row">
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button"  data-bs-toggle="modal" data-bs-target="#consultingModal" class="btn btn-primary btn-lg px-4 gap-3 fs-6 text-nowrap">{{ .label }}</button>
+        </div>
+          </div>
+        {{ end }}
+        {{ end }}
+        </div>
+        </div>
+        </div>
+        </div>
+    
+
+
+{{end}}
+{{end}}

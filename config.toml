@@ -1,0 +1,162 @@
+baseURL = 'http://example.org/'
+#languageCode = 'en-us'
+languageCode = 'ru-RU'
+title = 'My New Hugo Site'
+
+
+############################# Plugins ##########################
+# css plugins
+[[params.plugins.css]]
+link = "/assets/fontawesome/css/all.css"
+[[params.plugins.css]]
+link = "/assets/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "/assets/bootstrap/dist/css/bootstrap.min.css"
+[[params.plugins.css]]
+link = "/assets/style.css"
+#[[params.plugins.css]]
+#link = "/assets/checkout.css"
+
+
+# js plugins
+[[params.plugins.js]]
+link = "/assets/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "/assets/bootstrap/dist/js/bootstrap.bundle.min.js"
+[[params.plugins.js]]
+link = "/assets/custom/queries.js"
+[[params.plugins.js]]
+link = "https://js.stripe.com/v3/"
+[[params.plugins.js]]
+link = "/assets/checkout.js"
+
+############################# Default Parameters ##########################
+[params]
+logo = "/images/logo.png"
+# Meta data
+description = ""
+author = ""
+# Google Analytics
+google_analytics_id = "" # Your ID
+# post share
+post_share = true
+
+############################# social icons ##########################
+
+
+#[[params.social]]
+#icon = "fa-brands fa-youtube" # themify icon pack : https://themify.me/themify-icons
+#link = ""
+
+#[[params.social]]
+#icon = "fa-brands fa-linkedin" # themify icon pack : https://themify.me/themify-icons
+#link = ""
+
+#[[params.social]]
+#icon = "fa-brands fa-instagram" # themify icon pack : https://themify.me/themify-icons
+#link = ""
+
+#[[params.social]]
+#icon = "fa-brands fa-telegram" # themify icon pack : https://themify.me/themify-icons
+#link = ""
+
+#[[params.social]]
+#icon = "fa-brands fa-github" # themify icon pack : https://themify.me/themify-icons
+#link = ""
+
+################# english navigation Language menu #################
+[[Languages.en.menu.language]]
+name = "English"
+url = "/en"
+post = "flag-icon flag-icon-us"
+weight = 2
+
+[[Languages.en.menu.language]]
+name = "Русский"
+url = "/ru"
+post = "flag-icon flag-icon-ru"
+weight = 1
+
+[[Languages.en.menu.language]]
+name = "Italiano"
+url = "/it"
+post = "flag-icon flag-icon-it"
+weight = 3
+
+
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+title = 'Anna Muravleva'
+contentDir = "content/en"
+
+[Languages.en.params]
+weight = 1
+home = "Home"
+email = ""
+copyright = "Copyright &copy; 2024 All rights reserved"
+
+
+################################ Russian Language ########################
+[Languages.ru]
+languageName = "Ru"
+languageCode = "ru-RU"
+contentDir = "content/ru"
+title = 'Анна Муравлева'
+weight = 2
+
+[Languages.ru.params]
+home = "Домой"
+email = ""
+copyright = "Copyright &copy; 2024 Все права защищены"
+
+
+
+################################ Italian Language ########################
+[Languages.it]
+languageName = "It"
+languageCode = "it-it"
+contentDir = "content/it"
+title = 'Anna Muravleva'
+weight = 3
+
+[Languages.it.params]
+home = "Accueil"
+email = ""
+copyright = "Copyright &copy; 2024 Tutti i diritti riservati "
+
+
+################## english navigation. Main menu #################
+[[Languages.en.menu.main]]
+name = "Services"
+url = "#services"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "Payment"
+url = "/payment"
+weight = 2
+
+
+################## Russian navigation. Main menu #################
+[[Languages.ru.menu.main]]
+name = "Услуги"
+url = "#services"
+weight = 1
+
+[[Languages.ru.menu.main]]
+name = "Оплатить"
+url = "/payment"
+weight = 2
+
+################## Russian navigation. Main menu #################
+[[Languages.en.menu.main]]
+name = "Services"
+url = "#services"
+weight = 1
+
+[[Languages.it.menu.main]]
+name = "Pagamento"
+url = "/payment"
+weight = 2
