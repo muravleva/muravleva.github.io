@@ -1,30 +1,15 @@
 ############################### Banner ################################
 consulting:
   enable : true
-  bg_image : "/images/background/hero-consulting.jpg"
+  bg_image : "/images/background/flower.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "CONSULENTE"
-  content : "in investimenti, trading e analisi finanziaria dal 2016"
-  about_item :
-   - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-     title : Condurrò un'analisi qualitativa del tuo portafoglio di investimenti
+  title : "Диагностика личности"
+  description: "Кто ты?"
+  content : "Определить точку разбалансировки/ потери равновесия. Найти точку отправления. Обозначить точку прибытия. Мы посмотрим на вашу конституцию. Разберемся в причине разбалансировки, посмотрим на корень. Обзначим причину. Наудем решение для последсвий и обозначим то к чему хотим прийти в балансе и гармонии с собой."
 
-   - icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
-     title : Analisi tecnica degli strumenti di scambio
-
-   - icon : ti-microphone # themify icon pack : https://themify.me/themify-icons
-     title : DUE DILIGENCE di qualsiasi società pubblica su richiesta
-
-   - icon : ti-video-camera # themify icon pack : https://themify.me/themify-icons
-     title : Tutoring e formazione nel trading e negli investimenti
 
   button:
     enable : true
     target: ""
-    label : "Lascia una richiesta di consulenza"
-    link : "/consulting"
-  button2:
-    enable : false
-    target: ""
-    label : "Fai il test Che tipo di investitore sei?"
-    link : "#services"
+    label : "Получить услугу"
+    link : ""

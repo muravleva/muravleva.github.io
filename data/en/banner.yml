@@ -5,7 +5,8 @@ banner:
   monogramma : ""
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "АННА МУРАВЛЕВА"
-  content : "Эколог. Адепт Естественного Баланса"
+  contenta : "Эколог"
+  contentb : "Адепт Естественного Баланса"
 
   button:
     enable : true

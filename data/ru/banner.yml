@@ -1,41 +1,14 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_image : "/images/background/hero-init.jpg"
-  monogramma : "/images/monogramma.png"
+  bg_image : "/images/background/eco.jpg"
+  monogramma : ""
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Алексей Янченко"
-  content : "Финансовый Аналитик, Трейдер, IT Девелопер и Предприниматель"
-  about_item :
-
-   - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-     title : 3 Образования&#58; Экономист, Инженер IT, Режиссер Кино/ТВ
-
-   - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-     title : 8 лет в Техническом Анализе и Финансовой Аналитике
-
-   - icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
-     title : Founder и CEO Amy ERP/CRM
-
-   - icon : ti-github # themify icon pack : https://themify.me/themify-icons
-     title : 17 лет в Инновационном IT Девелопменте
-
-   - icon : ti-medall # themify icon pack : https://themify.me/themify-icons
-     title : 3 года в должности CIO / Software Architect
-
-   - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-     title : Founder/CEO криптобиржи 1BSE с 2013 по 2016
-
-   - icon : ti-microphone # themify icon pack : https://themify.me/themify-icons
-     title : Бизнес-спикер
-
-   - icon : ti-video-camera # themify icon pack : https://themify.me/themify-icons
-     title : Автор статей и видео
-
-
+  title : "АННА МУРАВЛЕВА"
+  contenta : "Эколог"
+  contentb : "Адепт Естественного Баланса"
 
   button:
     enable : true
-    target: ""
-    label : "Оставить заявку на консультацию"
+    label : "Получить консультацию"
     link : "#services"

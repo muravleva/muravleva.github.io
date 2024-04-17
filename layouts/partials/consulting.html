@@ -8,8 +8,9 @@
       </div>
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold lh-1 mb-3 text-white">{{ .title | markdownify }}</h1>
+        <h1 class="display-5 fw-bold lh-1 mb-3 text-white">{{ .description | markdownify }}</h1>
         <p class="lead text-white">{{ .content | markdownify }}</p>
-      
+
         <div class="gap-2 justify-content-md-start">
           {{ if .button.enable }}
           {{ with .button }}

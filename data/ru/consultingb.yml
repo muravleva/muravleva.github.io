@@ -11,4 +11,4 @@ consultingb:
     enable : true
     target: ""
     label : "Получить услугу"
-    link : ""
+    link : "/consulting"
