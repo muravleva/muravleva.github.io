@@ -2,6 +2,8 @@ baseURL = 'http://example.org/'
 #languageCode = 'en-us'
 languageCode = 'ru-RU'
 title = 'My New Hugo Site'
+defaultContentLanguage = 'ru'
+
 
 
 ############################# Plugins ##########################
